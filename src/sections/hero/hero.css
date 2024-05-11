@@ -213,7 +213,7 @@ input::placeholder,.spantext {
         flex-direction: row;
         justify-content: space-between;
         padding:10px 35px;
-        width: 100%;
+        align-items: center;
     }
    .btn-primary, .btn-white {
         font-size: 18px;
