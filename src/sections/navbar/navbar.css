@@ -43,6 +43,7 @@ nav {
     display: flex;
     column-gap: 50px;
     align-items: center;
+    transition: var(--transition);
 }
 .nav__menu li a{
     color: black;
@@ -118,6 +119,7 @@ nav {
         background-color: white;
         display: none;
         transform: .51s;
+        width: 100%;
     }
     .show_nav{
         display: block;
@@ -134,6 +136,7 @@ nav {
     .nav__menu li a{
         font-size: 20px;
         padding: 20px;
+        font-weight: 500;
     }
     .nav__menu li a:hover{
         text-decoration: none;
