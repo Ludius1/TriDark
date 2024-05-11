@@ -31,7 +31,7 @@
     /*GENERAL CONTAINER VARIABLES*/
     --container-width-1g: 85%;
     --container-width-md: 90%;
-    --container-width-sm: 94%;
+    --container-width-sm: 93%;
 
     /*GENERAL BORDER RADIOUS VARIABLES*/
     --border-radius-1: 1.2rem;
@@ -65,6 +65,8 @@ header {
 section {
     padding: 10rem 0 0 0;
     background: var();
+ width: 100%;
+    overflow: hidden;
     transition: var(--transition);
 }
 section:nth-child(even) {

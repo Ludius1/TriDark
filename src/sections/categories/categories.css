@@ -96,13 +96,13 @@
     .each__categories {
         display: flex;
         align-items: center;
-        gap: 16px;
+        gap: 10px;
         border: 1px solid rgb(230, 230, 230);
         border-radius: 60px;
         padding: 10px 7px;
     }
     .each__categories h3 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 500;
     }
     .each__categories span {

@@ -82,7 +82,9 @@ form input::placeholder {
     display: block;
     width: 100%;
 }
-
+.first__footer {
+    width: 400px;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -106,6 +108,7 @@ form input::placeholder {
         flex-direction: column;
         gap: 40px;
     }
+    
     .first__footer h6, .fifth__footer h6 {
         font-size: 18px;
         line-height: 1.5rem;

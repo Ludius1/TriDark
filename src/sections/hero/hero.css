@@ -177,9 +177,11 @@ input::placeholder,.spantext {
     #hero {
         background-size: cover;
         width: 100%;
-        background-position: center;
+        background-position-x: left;
         height: 100vh;
         margin-top: 50px;
+        width: 100%;
+
     }
     .container {
         width: var(--container-width-md);
