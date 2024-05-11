@@ -33,7 +33,7 @@ const handleMenu = () => {
                 <li><a href="#performance">About Us</a></li>
                 <li><a href="#footer">Contact</a></li>
                 <li><a href="#article">Blog</a></li>
-</ul>
+            </ul>
 
 
             <div className="right__nav">
@@ -45,7 +45,7 @@ const handleMenu = () => {
 
             <div className="last__nav">
             <div className="menu__option">
-                  <span onClick={handleMenu}style={{opacity: 1}}
+                  <span onClick={handleMenu}
                   id="menu"><IoMenu /></span>
                   {/* <span onClick={handleExit}
                   id="exit"><MdOutlineCancel /></span> */}
