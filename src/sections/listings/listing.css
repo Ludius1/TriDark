@@ -107,7 +107,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 25px 0;
-    padding: 0px 18px;
+    padding: 0px 15px;
 }
 .other__property__tag h5 {
     font-weight: 300;
@@ -209,6 +209,23 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .other__property__tag {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 0;
+        padding: 0px 15px;
+    }
+    .other__property__tag h5 {
+        font-weight: 300;
+        font-size: 13px;
+        color:rgb(83, 83, 83);
+    }
+    .other__property__tag .bath {
+        border-right: 2px solid rgb(83, 83, 83);
+        border-left: 2px solid rgb(83, 83, 83);
+        padding-inline: 10px;
     
+    }
     
 }

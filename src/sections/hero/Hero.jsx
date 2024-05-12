@@ -6,7 +6,7 @@ import './hero.css'
 const Hero = () => {
   return (
     <section id="hero">
-        <div className="container hero__section hero__conainer section_hero">
+        <div className="container hero__section section_hero">
             <h1>Discover Your <span>Perfect Rental</span></h1>
             <h3>Rent Cars, Houses, and Items in Just a Few Clicks</h3>
 
@@ -25,11 +25,11 @@ const Hero = () => {
                 <div className="inside__searchy">
                   <div className="icons__inside__seacrch">
                      <div className="icons__group">
-                     <span id="location__icon"><IoLocationOutline/></span>
-                      <span className="spantext">Select Location</span>
+                        <span id="location__icon"><IoLocationOutline/></span>
+                        <span className="spantext">Select Location</span>
                      </div>
                       <span id="down_icon"><IoIosArrowDown/></span>
-                    </div>
+                  </div>
                   
 
                     <div className="big_icon">
